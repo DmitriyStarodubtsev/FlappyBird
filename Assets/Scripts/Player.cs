@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     public BirdAnimation birdAnimation;
     private void Update() 
     {     
-        if (Input.touchCount>0 &&  Input.touches[0].phase == TouchPhase.Began)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             rb.velocity = new Vector2();
             rb.AddForce(transform.up*jumpForce, ForceMode2D.Impulse);

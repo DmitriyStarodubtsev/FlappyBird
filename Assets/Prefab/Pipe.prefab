@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 8913322949220625172}
   - component: {fileID: 8634296357850938715}
   - component: {fileID: 267887668459981838}
+  - component: {fileID: -8455065229149350461}
   m_Layer: 0
   m_Name: Pipe
   m_TagString: Untagged
@@ -255,6 +256,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c71a63c644f1c9b4b8c7533ef8909503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8455065229149350461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427260313887170176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7905705a33c4fbe4586b6870ab75953b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 8
 --- !u!1 &5427260314171607094
 GameObject:
   m_ObjectHideFlags: 0
